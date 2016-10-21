@@ -174,7 +174,8 @@ public class Map {
         }
         return -1;
     }
-
+    
+    //print shortest path, collision area and road number to reach collision from forward start
     public void printShortestPath() {
         int collisionVal = 0;
         int length = 0;

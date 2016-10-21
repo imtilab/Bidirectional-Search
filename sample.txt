@@ -1,0 +1,27 @@
+20, 24
+Arad
+Bucharest
+Arad, Zerind
+Zerind, Odarea
+Odarea, Sibiu
+Arad, Sibiu
+Arad, Timisoara
+Timisoara, Lugoj
+Sibiu, Farara
+Sibiu, Rimnieu
+Lugoj, Mehadia
+Mehadia, Dobreta
+Craiova, Bucharest
+Bucharest, Giurgiu
+Pitesti, Bucharest
+Pitesti, Craiova
+Farara, Bucharest
+Rimnieu, Pitesti
+Rimnieu, Craiova
+Urziccini, Hirsova
+Dobreta, Craiova
+Urziccini, Bucharest
+Urziccini, Vaslui
+Hirsova, Eforie
+Vaslui, Isai
+Isai, Neamt

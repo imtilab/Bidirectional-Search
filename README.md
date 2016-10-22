@@ -17,7 +17,7 @@ Arad (Starting Location)
 Bucharest (Destination Location)
 
 [information of 24 roads below]
----------------
+
 Arad, Zerind
 
 Zerind, Odarea
@@ -65,7 +65,7 @@ Hirsova, Eforie
 Vaslui, Isai
 
 Isai, Neamt
----------------
+
 
 Output:
 

@@ -3,7 +3,7 @@
 
 Assume you  have to travel from Arad city to Bucharest city. You desire to travel this route. Following is a road-map. The cost of moving from one city to another city is same. There remains multiple paths to reach Bucharest city from Arad city. In order to quickly find out a shortest route, you require to apply Breadth First Search from two directions i.e. one from the starting city Arad which we call Forward Search and another from the destination city Bucharest which we call Backward Search. The searching process from both directions will terminate as soon as the overlapping city is discovered from any direction.
 
-![Alt text]https://3.bp.blogspot.com/-QMoLYWL3124/WApm40K1OlI/AAAAAAAAAas/KXfwmtWuk7AfqN7D0XcjyrXSKCx2odoqwCLcB/s1600/s.gif "bidirectional search")
+![alt tag](https://3.bp.blogspot.com/-QMoLYWL3124/WApm40K1OlI/AAAAAAAAAas/KXfwmtWuk7AfqN7D0XcjyrXSKCx2odoqwCLcB/s1600/s.gif)
 
 Input:
 

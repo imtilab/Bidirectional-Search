@@ -93,7 +93,7 @@ public class Map {
         }
     }
 
-    public void shortestPath() {
+    public void BFS() {
         int startLoc = checkCityValueAssigned(start);
         int destiLoc = checkCityValueAssigned(destination);
 
@@ -106,7 +106,7 @@ public class Map {
         visited_node_for_start[0] = start;
         visited_node_for_desti[0] = destination;
 
-        BFS();
+        BFS_visit();
         if (collisionCity != null) {
             printShortestPath();
         } else {
@@ -115,8 +115,8 @@ public class Map {
 
     }
 
-    //run BFS from both start and destination side of the map
-    public void BFS() {
+    //run BFS_visit from both start and destination side of the map
+    public void BFS_visit() {
         boolean collisionChecker = false;
 
         while (!queue_start.isEmpty() && !queue_destination.isEmpty() && !collisionChecker) {

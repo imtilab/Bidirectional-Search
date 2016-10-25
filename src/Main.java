@@ -13,7 +13,7 @@ public class Main {
         Map map=new Map();
         map.setGraph();
         //map.print();
-        map.shortestPath();
+        map.BFS();
         
     }
 }

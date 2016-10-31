@@ -33,7 +33,7 @@ public class Map {
     String visited_node_for_desti[];//check if collision happens
     int sCounter = 0;
     int dCounter = 0;
-
+    int cityValueToAssigned = 0;//city value assign counter
     String collisionCity;
     
     //set and initialize the full graph
@@ -63,7 +63,6 @@ public class Map {
         destination = bufferedReader.readLine();
 
         //input all other pair of city names and assign unique values
-        int cityValueToAssigned = 0;
         for (int i = 0; i < roads; i++) {
             stringLine = bufferedReader.readLine();
             lineArray = stringLine.split(", ");
@@ -165,7 +164,7 @@ public class Map {
     //take a city name and check if it is already assigned with a value
     //if assigned, return the assigned number, otherwise return -1
     public int checkCityValueAssigned(String city_name) {
-        for (int i = 0; i < cities; i++) {
+        for (int i = 0; i < cityValueToAssigned; i++) {
             if (city_list[i] != null) {
                 if (city_list[i].equals(city_name)) {
                     return i;

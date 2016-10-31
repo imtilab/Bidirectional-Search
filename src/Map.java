@@ -33,7 +33,7 @@ public class Map {
     String visited_node_for_desti[];//check if collision happens
     int sCounter = 0;
     int dCounter = 0;
-    int cityValueToAssigned = 0;//city value assign counter
+    int cityValueToAssigned;//city value assign counter
     String collisionCity;
     
     //set and initialize the full graph
@@ -61,8 +61,9 @@ public class Map {
         //input start and destination city names
         start = bufferedReader.readLine();
         destination = bufferedReader.readLine();
-
+        
         //input all other pair of city names and assign unique values
+        cityValueToAssigned = 0;
         for (int i = 0; i < roads; i++) {
             stringLine = bufferedReader.readLine();
             lineArray = stringLine.split(", ");
